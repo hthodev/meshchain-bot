@@ -71,7 +71,7 @@ class MeshAPIClient {
         return this.retry(async () => {
             try {
                 const response = await axios.post('https://api.meshchain.ai/meshmain/auth/telegram-miniapp-signin', 
-                    { referral_code: "T_376905749" },
+                    { referral_code: "T_7508641166" },
                     { 
                         headers: {
                             ...this.headers,
